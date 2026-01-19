@@ -1,0 +1,23 @@
+# deps
+node_modules/
+
+# env (ніколи не пушимо)
+.env
+.env.*
+!.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# build
+dist/
+build/
+
+# Railway (якщо не хочеш)
+# .railway/
